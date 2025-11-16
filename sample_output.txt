@@ -1,0 +1,11 @@
+Input:
+Hello world! This is a test 123.
+
+Output:
+Words: 6
+Vowels: 8
+Consonants: 10
+Digits: 3
+Spaces: 5
+Specials: 1
+Sentences: 1
