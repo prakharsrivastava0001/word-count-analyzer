@@ -1,0 +1,23 @@
+Word Count Analyzer - Algorithm
+
+1. Start
+2. Input the text from the user
+3. Initialize counters:
+   vowels = 0
+   consonants = 0
+   digits = 0
+   spaces = 0
+   specials = 0
+   words = 0
+   sentences = 0
+4. Traverse each character in the text:
+   a. If alphabet:
+         - If vowel → vowels++
+         - Else → consonants++
+         - If starting a new word → words++
+   b. Else if digit → digits++
+   c. Else if whitespace → spaces++
+   d. Else if '.', '?', '!' → sentences++
+   e. Else → specials++
+5. Print all counters
+6. End
