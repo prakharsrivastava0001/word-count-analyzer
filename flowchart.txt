@@ -1,0 +1,23 @@
+Flowchart (text version)
+
+START
+ |
+ V
+Input text
+ |
+ V
+Initialize all counters to 0
+ |
+ V
+For each character in text:
+ |----> Alphabet? ----> Yes → Vowel/Consonant count → Mark in-word → Continue
+ |----> Digit? --------> Yes → digits++ → Continue
+ |----> Space? --------> Yes → spaces++ → End current word → Continue
+ |----> '.', '?', '!' → Yes → sentences++ → specials++ → Continue
+ |----> Otherwise ----> specials++
+ |
+ V
+Display results
+ |
+ V
+END
